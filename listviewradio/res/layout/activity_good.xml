@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/layout"  
+    android:orientation="horizontal"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >  
+    <ImageView 
+        android:id="@+id/avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/avatar"
+        android:layout_alignParentLeft="true"
+        />
+   <TextView  android:id="@+id/list_text"  
+    android:layout_width="wrap_content"   
+    android:layout_height="40dp"   
+    android:layout_marginLeft="10dp"
+    android:textAlignment="viewStart"
+    android:layout_marginTop="2dp"
+    android:layout_toRightOf="@+id/avatar"
+    android:text="名称"
+    android:textSize="20sp"
+    />  
+    <TextView  android:id="@+id/list_address"  
+    android:layout_width="wrap_content"   
+    android:layout_height="40dp"    
+    android:layout_marginLeft="10dp"
+    android:layout_toRightOf="@+id/avatar"
+    android:layout_below="@+id/list_text"
+    android:text="地址"
+    /> 
+   <ImageView android:id="@+id/list_radioImg"  
+    android:layout_width="40dp"  
+    android:layout_height="40dp" 
+    android:layout_marginRight="10dp" 
+    android:layout_centerVertical="true" 
+    android:layout_alignParentRight="true"/>  
+</RelativeLayout> 

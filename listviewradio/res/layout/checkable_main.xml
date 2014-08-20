@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="II代分你大方撒发送到发锁定放大发的发地方 "
+    android:layout_marginBottom="10dip"
+    />
+<ListView
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/listview"
+	/>
+</LinearLayout>
